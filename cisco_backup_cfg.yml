@@ -17,7 +17,7 @@
 #        dest: "/home/ubuntu/cisco-backups/show_run_{{ inventory_hostname }}.txt"
 
 - name: Cisco IOS
-  hosts: all
+  hosts: shpdrt
   gather_facts: false
   connection: network_cli
 
